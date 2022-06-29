@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderList {
+public class Waiter {
 
     private List<Order> orders;
 
-    public OrderList(){
+    public Waiter(){
         this.orders = new ArrayList<>();
     }
 

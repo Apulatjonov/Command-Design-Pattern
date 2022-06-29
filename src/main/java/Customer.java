@@ -1,11 +1,11 @@
-public class CommandPattern {
+public class Customer {
     public static void main(String[] args) {
         Drink drink = new Drink();
         MainMeal meal = new MainMeal();
         Soup soup = new Soup();
         Dessert dessert = new Dessert();
 
-        OrderList orderList = new OrderList();
+        Waiter orderList = new Waiter();
 
         orderList.takeOrder(drink);
         orderList.takeOrder(meal);
